@@ -5,8 +5,8 @@ function AuthLayout() {
   return (
     <div className="auth-container">
       <div className="auth-menu">
-        <Link to="/auth"> Giriş Yap</Link>
-        <Link to="/auth/register"> Kayıt Ol</Link>
+        <Link to="/auth"> Login</Link>
+        <Link to="/auth/register"> Register</Link>
       </div>
 
       <hr />

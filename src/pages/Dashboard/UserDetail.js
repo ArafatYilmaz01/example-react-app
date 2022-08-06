@@ -20,9 +20,9 @@ function UserDetail() {
   
   return (
     <div>
-      <h2>Kullanıcı Detay</h2>
+      <h2>User Detail</h2>
   {user&& <pre>{JSON.stringify(user, null, 2)}</pre> }
-  <Link to={`/users/${Number(id)+1}`}> Sonraki Kullanıcı</Link>
+  <Link to={`/users/${Number(id)+1}`}> Next User</Link>
     </div>
   );
 }

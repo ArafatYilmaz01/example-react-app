@@ -4,7 +4,7 @@ function Error404() {
     return (
         <div style={{textAlign:"center"}}>
             <h2>
-                Sayfa Bulunamadı
+                Page not found
             </h2>
         </div>
     )

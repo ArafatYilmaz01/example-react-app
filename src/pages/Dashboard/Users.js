@@ -10,7 +10,7 @@ function Users() {
   }, []);
   return (
     <div>
-      <h2>Kullanıcılar</h2>
+      <h2>Users</h2>
       <ul>
         {users.map(user => (
           <li key={user.id}>

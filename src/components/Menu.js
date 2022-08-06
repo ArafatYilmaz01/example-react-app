@@ -6,18 +6,18 @@ function Menu() {
     <div>
       <ul className="menu">
         <li>
-          <Link to="/"> Ana Sayfa </Link>
+          <Link to="/"> Home </Link>
         </li>
         <li>
-          <Link to="users"> Kullanıcılar</Link>
+          <Link to="users"> Users</Link>
         </li>
         <li>
-          <Link to="contact"> İletişim </Link>
+          <Link to="contact"> Contact </Link>
         </li>
         {/* Link to yerine useNavigate hook'unu bu şekilde kullanabiliyoruz */}
         {/* parametreyi -1 verince bir önceki sayfaya gidiyor */}
         <li onClick={()=>navigate(-1)}> 
-          İletişim 
+          Previous Page 
         </li>
       </ul>
     </div>
