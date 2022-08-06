@@ -1,0 +1,27 @@
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style-type: none
+}
+.menu {
+  display:flex;
+  border-bottom: solid 1px #ccc;
+  padding: 10px 0;
+  column-gap: 10px
+}
+.auth-menu{
+  display: flex;
+  column-gap: 10px;
+}
+.auth-menu a {
+  text-decoration: none
+}
+.form >div{
+  margin-bottom: 6px
+}
+.form >div>label{
+  display: block
+}
+.form >div >input,textarea {
+  padding: 5px
+}
