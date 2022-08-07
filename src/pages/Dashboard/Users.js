@@ -4,7 +4,7 @@ function Users() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/users")
+    fetch(`${process.env.REACT_APP_API_ENDPOINT}/users`)
       .then(res => res.json())
       .then(data => setUsers(data));
   }, []);
